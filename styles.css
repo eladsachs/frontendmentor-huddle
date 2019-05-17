@@ -1,9 +1,10 @@
 @import url(//fonts.googleapis.com/css?family=Poppins);
 @import url('https://fonts.googleapis.com/css?family=Open+Sans');
 
-body {
+h1 {
     font-family: 'Poppins';
-    font-weight: 500px;
+    font-weight: 600;
+    max-width: 30%;
 }
 
 .attribution {
@@ -16,7 +17,6 @@ body {
 
 .top {
   background-image: url("./images/bg-hero-desktop.svg");
-  margin-top: -1.5%
 }
 
 .div-header {
@@ -29,22 +29,27 @@ body {
 }
 
 .logo {
-  height: 20%;
-  width: 20%
+  margin-left: 3%;
+  height: 10%;
+  width: 10%
 }
 
 .first-section {
   display: flex;
   margin-top: 4%;
+  margin-left: 3%;
 }
 
-.text {
-  font-family: 'Open+Sans'
+.p1 {
+  font-family: 'Open Sans';
+  font-weight: 400;
+  font-size: 14px;
+  text-align: center;
+  max-width: 42%;
 }
 
 .mockups {
-  height: 50%;
-  width: 50%;
-  min-height: 50%;
-  min-width: 50%;
+  height: 30%;
+  width: 30%;
+
 }
