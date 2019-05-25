@@ -1,6 +1,11 @@
 @import url(//fonts.googleapis.com/css?family=Poppins);
 @import url('https://fonts.googleapis.com/css?family=Open+Sans');
 
+body {
+  display: block;
+  margin: 0px;
+}
+
 h1 {
   font-family: 'Poppins';
   font-weight: 600;
@@ -13,20 +18,9 @@ h1 {
   max-width: 68%;
 }
 
-.attribution {
-  font-size: 11px;
-  text-align: center;
-}
-.attribution a {
-  color: hsl(228, 45%, 44%);
-}
-
 .top {
   background-image: url("./images/bg-hero-desktop.svg");
   background-color: hsla(200, 100%, 96%, 0.93);
-  margin-left: -0.8%;
-  margin-top: -0.6%;
-  margin-right: -0.8%;
   padding-bottom: 3%;
 }
 
@@ -210,9 +204,10 @@ footer {
 }
 
 .fifth-square {
-  grid-area: 1 / 1;
-  max-width: 56.3%;
-  height: 270px;    
+  position:absolute; 
+  top:2200px;
+  width: 55%;
+  height: 260px;    
   margin-left: 20%;    
   text-align: center;
   border-top-left-radius: 20px;
@@ -224,21 +219,139 @@ footer {
 }
 
 #h1-ready {
-  padding-top: 7%;
+  padding-top: 5%;
   padding-bottom: 4%;
   letter-spacing: 2px;
 }
 
 #get2 {
-  height: 28%
+  font-size: 17px;
+  height: 26%
 }
 
 #footer-div {
-  position: grid;
-  background-color: hsl(192, 100%, 9%);
+  display: flex;
+  margin-top: 330px;      
+  background-color: #00252e;
   color: white;
 }
 
+#left-footer-div {
+  max-width: 28%;
+  padding-top: 125px;
+  padding-left: 100px;
+}
+
 #logo-bottom {
-  
+  width: 55%;
+  filter: brightness(0) invert(1);
+}
+
+#location {
+  display: flex;    
+  margin-top: 35px;    
+}
+
+#location-image {
+  padding-top: 6px;    
+  height: 16px;
+}
+
+#p-location {
+  margin: 0 0 0 25px;
+  max-width: 66%;
+  font-family: 'Open Sans';    
+  font-size: 13px;
+}
+
+#phone {
+  display: flex;    
+  margin-top: 30px;    
+}
+
+#phone-image {
+  height: 15px;
+}
+
+#p-phone {
+  margin: 0 0 0 20px;
+  max-width: 30%;
+  font-family: 'Open Sans';    
+  font-size: 13px;
+}
+
+#email {
+  display: flex;    
+  margin-top: 30px;    
+}
+
+#email-image {
+  height: 14px;
+}
+
+#p-email {
+  margin: 0 0 0 20px;
+  max-width: 30%;
+  font-family: 'Open Sans';    
+  font-size: 13px;
+}
+
+#footer-middle1-ul {
+  list-style-type: none;
+  width: 110px;
+  padding-top: 177px;
+}
+
+#footer-middle2-ul {
+  margin-left: 90px;    
+  list-style-type: none;
+  width: 110px;
+  padding-top: 177px;  
+}
+
+li {
+  padding-top: 10px;
+}
+
+a {
+  font-size: 13px;   
+  font-family: 'Open Sans';
+  max-width: 100%;
+  color: white;
+  text-decoration-line: none
+}
+
+#social {
+  width: 200px;
+  margin-left: 120px;    
+  padding-top: 200px; 
+}
+
+.social-images {
+  padding: 7px 6px;
+  border: solid 1px;
+  border-radius: 50%;
+  margin-left: 15px;    
+  filter: brightness(0) invert(1);
+  height: 22px;
+  width: 25px;
+}
+
+#div-attribution {
+    padding-bottom: 40px;
+    background-color: #00252e;
+    color: white;
+}
+
+.attribution {
+  margin-top: 0;
+  margin-bottom: 7px;
+  margin-left: 72%;;
+  font-family: 'Open Sans';
+  font-size: 12px;
+}
+.attribution a {
+  font-family: 'Open Sans';
+  font-size: 12px;
+  color: hsl(228, 87%, 76%);
 }
